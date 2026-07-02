@@ -7,7 +7,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl md:text-[72px] font-serif leading-[1.05] tracking-tight text-text-editor mb-6"
+        className="text-4xl md:text-[72px] font-serif leading-[1.05] tracking-tight text-text-editor mb-6"
       >
         Undangan Digital <br className="hidden md:block" />Elegan untuk Momen Spesial
       </motion.h1>
