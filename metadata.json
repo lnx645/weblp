@@ -1,0 +1,6 @@
+{
+  "name": "Invitnesia",
+  "description": "Jasa pembuatan undangan pernikahan digital online yang elegan dan mudah digunakan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
