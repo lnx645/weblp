@@ -18,8 +18,9 @@ export default function Navigation() {
         <Link to="/features">Fitur</Link>
         <Link to="/themes">Tema</Link>
         <Link to="/testimonials">Testimoni</Link>
+        <Link to="/login" className="text-text-editor font-bold">Masuk</Link>
       </nav>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex items-center gap-4">
         <Link to="/create" className="px-6 py-2 bg-text-editor text-white text-sm font-medium rounded-full hover:opacity-90 transition-all">
           Buat Undangan
         </Link>
@@ -34,6 +35,7 @@ export default function Navigation() {
           <Link to="/features" onClick={() => setIsOpen(false)}>Fitur</Link>
           <Link to="/themes" onClick={() => setIsOpen(false)}>Tema</Link>
           <Link to="/testimonials" onClick={() => setIsOpen(false)}>Testimoni</Link>
+          <Link to="/login" onClick={() => setIsOpen(false)}>Masuk</Link>
           <Link to="/create" className="bg-text-editor text-white px-6 py-2 rounded-full text-center" onClick={() => setIsOpen(false)}>
             Buat Undangan
           </Link>
